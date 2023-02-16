@@ -1,0 +1,30 @@
+.profileCard__image{
+    border-radius: 10px;
+    /* position: relative; */
+}
+
+
+.profileCard__container{
+    position: relative;
+}
+
+.profileCard__sub{
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    padding: 8px 0px;
+    width: 100%;
+}
+
+.profileCard__sub p{
+    margin: 0;
+}
+
+.profileCard__sub.dark{
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.profileCard__sub.light{
+    background-color: rgba(255,255,255,0.5);
+}
+

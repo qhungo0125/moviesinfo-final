@@ -1,0 +1,41 @@
+.film{
+    position: relative;
+    margin: 8px;
+}
+
+.film__image{
+    border-radius: 10px;
+}
+
+.film__info{
+    display: none;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.film__image:hover + .film__info,
+.film__info:hover
+{
+    display: block;
+    cursor: pointer;
+}
+
+.film__info.dark{
+    background-color: #212529;
+}
+
+.film__info.light{
+    background-color: white;
+    /* background-color: greenyellow; */
+    /* background-color: #212529; */
+}
+
+.film__link{
+    padding-bottom: 4px;
+    background-color: aqua;
+    border-radius: 10px;
+}

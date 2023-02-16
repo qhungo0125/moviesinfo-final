@@ -1,0 +1,14 @@
+.footer__light{
+    margin: 8px 4px;
+    margin-top: 8px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.footer__dark{
+    margin: 0px 4px;
+    margin-top: 8px;
+    border: solid 1px white;
+    background-color: #212529;
+    border-radius: 10px;
+}

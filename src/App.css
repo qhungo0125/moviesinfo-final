@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+.App{
+  min-height: 100vh;
+  padding: 4px 0px;
+}
+
+.App.light{
+  background-color: rgb(204, 204, 204);
+  color: black;
+}
+
+.App.dark{
+  background-color: black;
+  color: white;
+}
+
+.zoom:hover{
+  transform: scale(1.2);
+  z-index: 99;
+  cursor: pointer;
+    
+}

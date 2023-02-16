@@ -1,0 +1,12 @@
+.header__light{
+    background-color: white;
+    margin: 0px 4px;
+    border-radius: 10px;
+}
+
+.header__dark{
+    border: solid 1px white;
+    background-color: #212529;
+    margin: 0px 4px;
+    border-radius: 10px;
+}

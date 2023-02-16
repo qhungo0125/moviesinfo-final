@@ -1,0 +1,35 @@
+/* .dark{
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    border: white 1px solid;
+    margin: 4px;
+    padding: 4px;
+}
+
+.light{
+    background-color: white;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 4px;
+}
+
+.homebtn{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.homeDark{
+    color: white;
+}
+
+.homebtn:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+.inputSearch{
+    margin-right: 4px;
+} */
